@@ -26,7 +26,7 @@ Grid class
 - Internet Explorer 9+
 - Internet Explorer 6-8 (with rgrid4ie.js)
 
-    &lt;!--[if lte IE 8]>
-    <script src="../rgrid4ie.js"></script>
-    &lt;![endif]-->
+        &lt;!--[if lte IE 8]>
+        &lt;script src="../rgrid4ie.js"></script>
+        &lt;![endif]-->
 
