@@ -17,3 +17,15 @@ Grid class
  - 100%を指定したい場合には、`gt1`のような、接頭辞の後に 1 をつけたクラスを指定します。ただし、blockクラスはデフォルトが100%なので、`gt24-24`というような指定も（そのようなクラスはありませんが）可能です。
  - 非表示にしたい場合には、`gt0`のような、接頭辞の後に 0 をつけたクラスを指定します。メニューリストをモバイルの時だけプルダウンにしたい場合などに有効です。
 
+対応ブラウザ
+------------
+
+- Chrome
+- Firefox
+- Safari
+- Internet Explorer 9+
+- Internet Explorer 6-8 (with rgrid4ie.js)
+    <!--[if lte IE 8]>
+    <script src="../rgrid4ie.js"></script>
+    <![endif]-->
+
