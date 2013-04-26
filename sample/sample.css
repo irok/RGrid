@@ -24,6 +24,10 @@ ul.wrap {
   line-height: 150%;
 }
 
+/* box同士の間にマージンが欲しいときは以下を入れる */
+.block-group { margin: -1em 0 0 -1em; }
+.block { padding: 1em 0 0 1em; }
+
 .box {
   background: -moz-linear-gradient(top,  rgba(255,255,255,.3) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.3)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
